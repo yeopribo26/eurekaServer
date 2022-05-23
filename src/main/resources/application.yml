@@ -1,6 +1,14 @@
 server:
   port: 8761
 
+# 뷰 경로 설정
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+
 eureka:
   instance:
     hostname: localhost
