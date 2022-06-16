@@ -58,7 +58,6 @@
 	</dependencies>
 
 	<build>
-		<fileName>eureka</fileName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
